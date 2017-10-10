@@ -1,0 +1,1 @@
+exec ${KAFKA_HOME}/bin/kafka-run-class.sh -Djava.security.auth.login.config=/config/kafka_client_jaas_alice.conf kafka.tools.ConsoleProducer "$@"
